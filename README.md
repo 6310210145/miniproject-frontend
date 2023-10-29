@@ -1,4 +1,4 @@
-# frontend
+# minipro-frontend
 
 ## Project setup
 ```

@@ -1,22 +1,15 @@
 <template>
-<v-container>
-  <v-row>
-    <v-col cols="12">
-      <HomeForm/>
-    </v-col>
-  </v-row>
-</v-container>
+  <hello-world />
 </template>
 
 <script>
-import HomeForm from '../components/Home.vue'
+import HelloWorld from '../components/HelloWorld'
+
 export default {
+  name: 'Home',
+
   components: {
-    HomeForm
+    HelloWorld
   }
 }
 </script>
-
-<style>
-
-</style>
